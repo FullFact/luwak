@@ -1,0 +1,9 @@
+version: '2'
+services:
+
+  # Infrastructure
+  luwak:
+    build: .
+    ports:
+      - "8080:8080"
+      - "8081:8081"
